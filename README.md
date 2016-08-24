@@ -1,8 +1,6 @@
 # Gawe
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gawe`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Simple collection of helper for development
 
 ## Installation
 
@@ -18,7 +16,19 @@ And then execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Clean all variables on rails console
+
+Clear assigned variable on rails console without exit the console. Very usefull when trying with big data from queries, save time and memory.
+
+```ruby
+Gawe::Run.clear_variables
+```
+
+or
+
+```ruby
+Gawe::Run.cv
+```
 
 ## Development
 
