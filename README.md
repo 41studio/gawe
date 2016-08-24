@@ -18,7 +18,7 @@ And then execute:
 
 ### Clean all variables on rails console
 
-Clear assigned variable on rails console without exit the console. Very usefull when trying with big data from queries, save time and memory.
+Clear assigned variable on rails console without exit the console, very usefull when working and debuging with big data from database and your machine going out of memory, save time and memory.
 
 ```ruby
 Gawe::Run.clear_variables
